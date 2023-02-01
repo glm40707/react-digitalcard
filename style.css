@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: black;
+}
+
+#root{
+    background-color: #1A1B21;
+    max-width: 317px;
+    margin: 0 auto;
+}
+
+.name{
+    display: flex;
+    font-size: 21px;
+    font-weight: bold;
+    color: whitesmoke;
+    justify-content: center;
+    margin-top: 1em;   
+}
+
+.position{
+    display: flex;
+    color: #F3BF99;
+    font-size: 12.8px;
+    justify-content: center;
+    margin-top: .2em;      
+}
+
+.site{
+    display: flex;
+    font-size: 10.3px;
+    justify-content: center;
+    color: #F5F5F5;
+    margin-top: .6em;   
+}
+
+.about{
+    font-size: 16px;
+    display: flex;
+    margin-bottom: .4em;
+    margin-top: 1em;
+}
+
+.about-body{
+    font-size: 10.3px;
+    display: flex;
+    line-height: 1.5em;
+}
+
+section{
+    
+    color: whitesmoke;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.interests{
+    font-size: 16px;
+    display: flex;
+    margin-bottom: .4em;
+    margin-top: 1.6em;
+}
+
+.interests-body{
+    font-size: 10.3px;
+    display: flex;
+    line-height: 1.5em;
+    margin-bottom: 4em;
+}
+
